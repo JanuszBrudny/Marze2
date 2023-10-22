@@ -20,11 +20,12 @@ body {
 }
 .header {
 	position: relative;
-	background-image: url(/img/flowers-2268013_1920.jpg);
+	background-image: url(../img/flowers-2268013_1920.jpg);
 	height: 350px;
 	background-position: center;
 	background-size: cover;
 }
+
 .hero-bg {
 	position: absolute;
 	width: 100%;
