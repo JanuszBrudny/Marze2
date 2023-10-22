@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #fcd5ce;
+	font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.header {
+	position: relative;
+	background-image: url(/img/flowers-2268013_1920.jpg);
+	height: 350px;
+	background-position: center;
+	background-size: cover;
+}
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: "Lemonada", cursive;
+	color: #f8edeb;
+	font-size: 1em;
+}
+h1 {
+	font-size: 3rem;
+}
+.header-text {
+	padding: 10px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.section-title {
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+}
+.aboutus {
+	width: 100%;
+	background-color: #fec89a;
+}
+.aboutus-text {
+	text-align: center;
+	font-size: 2em;
+	color: #333;
+}
+.aboutus-text p {
+	padding: 20px;
+}
+.aboutus-text span {
+	font-family: "Lemonada", cursive;
+	font-size: 1.6em;
+}
+.offers {
+	background-color: #f9dcc4;
+}
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.offers-card {
+	margin: 20px;
+	width: 300px;
+
+	background-color: #fff;
+	box-shadow: 0 0 5px red;
+}
+.card-img {
+	padding: 10px;
+	margin: 10px;
+	width: 280px;
+	height: 200px;
+}
+.offers-text {
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 1.6rem;
+}
+.btn {
+	width: 100px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 180px;
+	margin-bottom: 20px;
+	background-color: rgb(40, 228, 93);
+	border: 1px solid red;
+	border-radius: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: yellowgreen;
+}
+
+@media (min-width: 768px) {
+	.cards {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+}
